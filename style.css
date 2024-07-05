@@ -1,0 +1,1665 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cairo", sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 188px 25px 135px 24px 610px 30px 40px 35px 28px 19px 35px 55px 30px 26px 20px;
+    grid-template-rows: 47px;
+    background-color: #f5f5f5;;
+    font-family: "Cairo", sans-serif;
+    align-items: center;
+    font-size: small;
+}
+
+.ImagemEnvelope{
+    grid-column: 2;
+}
+
+.TamanhoImagemEnvelope {
+    width: 14px;
+    height: 14px;
+}
+
+.Email{
+    grid-column: 3;
+}
+
+.Traco{
+    grid-column: 4;
+    width: 1px;
+    height: 15px;
+    background-color: #d6d2d2;
+}
+
+.FreeCabecalho{
+    grid-column: 5;
+}
+
+.Facebook {
+    grid-column: 6;
+}
+
+.TamanhoFacebook {
+    height: 14px;
+    width: 8px;
+}
+
+#Twitter {
+    grid-column: 7;
+}
+
+.TamanhoTwitter {
+    height: 14px;
+    width: 13px;
+}
+
+.Linkedin {
+    grid-column: 8;
+}
+
+.TamanhoLinkedin {
+    height: 14px;
+    width: 12px;
+}
+
+.Pinterest {
+    grid-column: 9;
+}
+
+.TamanhoPinterest {
+    height: 14px;
+    width: 10px;
+}
+
+.Traco2{
+    grid-column: 10;
+    width: 1px;
+    height: 15px;
+    background-color: #d6d2d2;
+}
+
+.ImagemEUA {
+    grid-column: 11;
+}
+
+.TamanhoImagemEUA {
+    height: 14px;
+    width: 25px;
+}
+
+.English{
+    font-size: small;
+    grid-column: 12;
+}
+
+.SetaBaixoCabecalho {
+    grid-column: 13;
+}
+
+.TamanhoSetaBaixoCabecalho {
+    height: 9px;
+    width: 8px;
+}
+
+.Traco3{
+    grid-column: 14;
+    width: 1px;
+    height: 15px;
+    background-color: #d6d2d2;
+}
+
+.BonecoCabecalho{
+    grid-column: 15; 
+}
+
+.TamanhoBonecoCabecalho{
+    height: 14px;
+    width: 12px;
+}
+
+.Login{
+    grid-column: 16;
+}
+
+
+
+.menu{
+    display: grid;
+    grid-template-columns: 150px 42px 30px 158px 30px;
+    grid-template-rows: 14px 66px 15px 32px 22px 38.5px 38.5px 38.5px 38.5px 38.5px 38.5px 38.5px 38.5px 38.5px 38.5px 40px
+}
+
+.TamanhoOgani {
+    height: 50px;
+    width: 119px;
+}
+
+.ImagemOgani {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.FundoVerdeAll {
+    grid-column: 2 / 6;
+    grid-row: 3;
+    background-color: #7fad39;
+    padding: 24.2px 100px;
+    align-items: center;
+}
+
+.Menus{
+    grid-column: 3;
+    grid-row: 4; 
+}
+
+.Menu1 {
+    background-color: white;
+    height: 2.6px;
+    width: 14px;
+    margin-top: 12%;
+}
+
+.Menu2 {
+    background-color: white;
+    height: 2.4px;
+    width: 14px;
+    margin-top: 5%;
+}
+
+.Menu3 {
+    background-color: white;
+    height: 2.6px;
+    width: 14px;
+    margin-top: 5%;
+}
+
+.TextoAll{
+    grid-column: 4;
+    grid-row: 4;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.SetaBaixoBrancoMenu{
+    grid-column: 5;
+    grid-row: 4; 
+}
+
+.TamanhoSetaBaixoBrancoMenu {
+    height: 15px;
+    width: 12px;
+}
+
+.LinhaAllDepartments {
+    grid-column: 2 / 6;
+    border: 1px solid #ebebeb;
+    grid-row: 5 / 17;
+}
+
+.dropdown{
+    opacity: 0;
+    z-index: -99;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 100%;
+    grid-column: 2/6;
+    grid-row: 5/16;
+}
+
+.FundoDropDown{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 100%;
+    grid-column: 2/5;
+    padding-left: 15%;
+    grid-row: 6/16;
+    background-color: #ffffff;
+}
+
+.clique{
+    position: absolute;
+    top: 15vh;
+    left: 16.7%;
+    width: 13%;
+    height: 12%;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 99;
+}
+
+.clique:checked~.dropdown{
+    opacity: 1;
+    z-index: 99;
+}
+
+.FreshMeat {
+   font-family: "Cairo", sans-serif;
+   font-size: medium;
+   color: #1c1c1c;
+   grid-column: 3 / 5;
+   grid-row: 6;
+}
+
+.Vegetables{
+    font-family: "Cairo", sans-serif;
+    font-size: medium;
+    color: #1c1c1c;
+    grid-column: 3 / 5;
+    grid-row: 7;
+}
+
+.FruiteNut{
+    font-family: "Cairo", sans-serif;
+    font-size: medium;
+    color: #1c1c1c;
+    grid-column: 3 / 5;
+    grid-row: 8;
+}
+
+.FreshBerries{
+    font-family: "Cairo", sans-serif;
+    font-size: medium;
+    color: #1c1c1c;
+    grid-column: 3 / 5;
+    grid-row: 9;
+}
+
+.OceanFoods{
+    font-family: "Cairo", sans-serif;
+    font-size: medium;
+    color: #1c1c1c;
+    grid-column: 3 / 5;
+    grid-row: 10;
+}
+
+.ButterEggs{
+    font-family: "Cairo", sans-serif;
+    font-size: medium;
+    color: #1c1c1c;
+    grid-column: 3 / 5;
+    grid-row: 11;
+}
+
+.FastFood{
+    font-family: "Cairo", sans-serif;
+    font-size: medium;
+    color: #1c1c1c;
+    grid-column: 3 / 5;
+    grid-row: 12; 
+}
+
+.FreshOnion{
+    font-family: "Cairo", sans-serif;
+    font-size: medium;
+    color: #1c1c1c;
+    grid-column: 3 / 5;
+    grid-row: 13; 
+}
+
+.PapayayaCrips{
+    font-family: "Cairo", sans-serif;
+    font-size: medium;
+    color: #1c1c1c;
+    grid-column: 3 / 5;
+    grid-row: 14; 
+}
+
+.Oatmeal{
+    font-family: "Cairo", sans-serif;
+    font-size: medium;
+    color: #1c1c1c;
+    grid-column: 3 / 5;
+    grid-row: 15; 
+}
+
+.FreshBananas{
+    font-family: "Cairo", sans-serif;
+    font-size: medium;
+    color: #1c1c1c;
+    grid-column: 3 / 5;
+    grid-row: 16; 
+}
+
+
+
+.main{
+    display: grid;
+    grid-template-columns: 442px 18px 80px 60px 25px 13px 104px 96px 103px 27px; 
+    grid-template-rows: 32px 48px 15px 60px 90px 30px 60px 70px 60px 10px;
+    
+}
+
+.Home {
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    grid-column: 2 / 3;
+    grid-row: 2;
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+.Shop{
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    grid-column: 4 / 6;
+    grid-row: 2;
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+.Pages{
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+    grid-column: 7;
+    grid-row: 2;
+}
+
+.Blog{
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+    grid-column: 8;
+    grid-row: 2;
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+.Contact{
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.6px;
+    grid-column: 9;
+    grid-row: 2;
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+.LinhaAllCategories{
+    grid-column: 2 / 10;
+    border: 1px solid #ebebeb;
+    grid-row: 3;
+    padding: 24px;
+}
+
+.TextoAllCategories {
+   font-size: 15px;
+   font-weight: 700;
+   grid-column: 3 / 5;
+   grid-row: 4;
+}
+
+.TamanhoSetaBaixoAllCategories{
+    height: 9px;
+    width: 8px;
+}
+
+.SetaBaixoAllCategories{
+    grid-column: 5;
+    grid-row: 4;
+}
+
+.Traco4{
+    width: 0.1px;
+    height: 20px;
+    background-color: #d6d2d2;
+    grid-column: 6;
+    grid-row: 4;
+}
+
+.WhatdoYou{
+    grid-column: 7 / 9;
+    grid-row: 4;
+    color: #b2b2b2;
+    font-size: 15px;
+}
+
+.FundoVerdeSearch {
+    background-color: #7fad39;
+    grid-column: 10;
+    grid-row: 3;
+    padding: 25px 55px;
+}
+
+.TextoSearch {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 13px;
+    grid-row: 4;
+    grid-column: 11;
+}
+
+.ImagemBanner{
+    background-image: url(banner.jpg);
+    grid-row: 5;
+    grid-column: 2;
+}
+
+.TextoFruitFresh{
+    font-size: 14px;
+    color: #7fad39;
+    font-weight: 700;
+    letter-spacing: 4px;
+    grid-row: 6;
+    grid-column: 4 / 8;
+}
+
+.TextoImagemVegetable{
+    font-size: 46px;
+    font-weight: 700;
+    grid-row: 7;
+    grid-column: 4 / 8;
+}
+
+.Texto100Organic{
+    font-size: 46px;
+    font-weight: 700;
+    grid-row: 8;
+    grid-column: 4 / 10;
+}
+
+.TextoFreePickup{
+    font-size: 16px;
+    color: #6f6f6f;
+    font-weight: 400;
+    grid-row: 9;
+    grid-column: 4 / 10;
+}
+
+.FundoVerdeShopNow{
+    background-color: #7fad39;
+    padding: 22px 70px;
+    text-align: center;
+    grid-row: 10;
+    grid-column: 4;
+}
+
+.TextoShopNow{
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-left: 15px;
+    grid-row: 12;
+    grid-column: 4 / 8;
+}
+
+
+
+.Right{
+    display: grid;
+    grid-template-columns: 974px 18px 10px 6px 23px 10px 20px 35px;
+    grid-template-rows: 21px 5px 5px 52px 18px;
+}
+
+.TamanhoCoracao{
+    height: 18px;
+    width: 17.6px;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.FundoVerde1{
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: #7fad39;
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.Numero1Branco{
+    grid-column: 3;
+    grid-row: 2;
+    font-size: 10px;
+    color: #ffffff;
+    text-align: right;
+    font-weight: 700;
+    line-height: 15px;
+}
+
+.TamanhoBolsa{
+    height: 18px;
+    width: 29.6px;
+    grid-column: 5;
+    grid-row: 3;
+}
+
+.FundoVerde3{
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: #7fad39;
+    grid-column: 6;
+    grid-row: 2;
+}
+
+.Numero3Branco{
+    grid-column: 6;
+    grid-row: 2;
+    font-size: 10px;
+    color: #ffffff;
+    text-align: right;
+    font-weight: 700;
+    line-height: 15px;
+}
+
+.TextoItem{
+    color: #6f6f6f;
+    font-size: 14px;
+    grid-column: 8;
+    grid-row: 4;
+}
+
+.Texto150{
+    font-size: 14px;
+    font-weight: 700;
+    grid-column: 9;
+    grid-row: 4;
+}
+
+.Telefone{
+    height: 14.15px;
+    width: 17.6px;
+    grid-column: 3;
+    grid-row: 6;
+}
+
+.CorFundoTelefone{
+    height: 50px;
+    width: 50px;
+    background: #f5f5f5;
+    border-radius: 50%;
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.NumeroTelefone{
+    font-size: 15.2px;
+    font-weight: 700;
+    grid-column: 7 / 10;
+    grid-row: 5;
+}
+
+.TextoSuporte{
+    color: #6f6f6f;
+    grid-column: 7 / 10;
+    grid-row: 7;
+    font-size: small;
+}
+
+.Footer{
+    display: grid;
+    grid-template-columns: 200px 250px;
+    grid-template-rows: 500px 200px;
+}
+
+.Imagens4{
+   display: grid;
+   grid-template-columns: 55px 20px 45px 20px 60px 170px 45px 15px 20px 60px 170px 45px 15px 20px 60px 170px 45px 15px 20px 60px 170px 50px 5px;  
+   grid-template-rows: 70px 100px 10px 100px 18px;
+}
+
+.ImagemCat1{
+   grid-column: 4;
+   grid-row: 2;
+   background-image: url(cat-1.jpg.webp);
+}
+
+.CorFundoTextoFreshFruit{
+    grid-column: 5 / 7;
+    grid-row: 5;
+    background-color: #ffffff;
+    padding: 25px 0px;
+}
+
+.TextoFreshFruit{
+    grid-column: 6 / 8;
+    grid-row: 6;
+    font-weight: 700;
+}
+
+
+.ImagemCat2{
+    grid-column: 9;
+    grid-row: 2;
+    background-image: url(cat-2.jpg.webp);
+}
+
+.CorFundoDriedFruit{
+    grid-column: 10 / 12;
+    grid-row: 5;
+    background-color: #ffffff;
+    padding: 25px 0px;
+}
+
+.TextoDriedFruit{
+    grid-column: 11 / 13;
+    grid-row: 6;
+    font-weight: 700;
+}
+
+.ImagemCat3{
+    grid-column: 14;
+    grid-row: 2;
+    background-image: url(cat-3.jpg.webp);
+}
+
+.CorFundoVegetables{
+    grid-column: 15 / 17;
+    grid-row: 5;
+    background-color: #ffffff;
+    padding: 25px 0px;
+}
+
+.TextoVegetables{
+    grid-column: 16 / 18;
+    grid-row: 6;
+    font-weight: 700;
+}
+
+.ImagemCat4{
+    grid-column: 19;
+    grid-row: 2;
+    background-image: url(cat-3.jpg.webp);
+}
+
+.CorFundoDrinkFruits{
+    grid-column: 20 / 22;
+    grid-row: 5;
+    background-color: #ffffff;
+    padding: 25px 0px; 
+}
+
+.TextoDrinkFruits{
+    grid-column: 21 / 22;
+    grid-row: 6;
+    font-weight: 700;
+}
+
+.SetaEsquerda{
+    height: 19px;
+    width: 18px;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.LinhaSetaEsquerda{
+    grid-column: 2;
+    border: 1px solid #ebebeb;
+    grid-row: 3;
+    padding: 10px 10px;
+}
+
+.SetaDireita{
+    height: 19px;
+    width: 18px;
+    grid-column: 23;
+    grid-row: 3;
+}
+
+.LinhaSetaDireita{
+    grid-column: 23 / 24;
+    border: 1px solid #ebebeb;
+    grid-row: 3;
+    padding: 10px 10px;
+}
+
+
+
+.TituloFeaturedProduct{
+    display: grid;
+    grid-template-columns: 120px 310px 310px 310px 310px;
+    grid-template-rows: 100px 60px 40px 20px 60px 290px 30px 70px 290px 30px 80px;
+}
+
+.TextoFeaturedProduct{
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    grid-column: 3 / 5;
+    grid-row: 2;
+}
+
+.TracoVerde{
+    background-color: #7fad39;
+    height: 5px;
+    width: 80px;
+    margin-left: 42%;
+    grid-column: 3 / 5;
+    grid-row: 3;
+}
+
+.ImagemFeature1{
+    grid-column: 2;
+    grid-row: 6;
+}
+
+.ImagemFeature2{
+    grid-column: 3;
+    grid-row: 6;
+}
+
+.ImagemFeature3{
+    grid-column: 4;
+    grid-row: 6;
+}
+
+.ImagemFeature4{
+    grid-column: 5;
+    grid-row: 6;
+}
+
+.SubtituloAll{
+    font-size: 18px;
+    padding-left: 26%;
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.SubtituloOranges{
+    font-size: 18px;
+    padding-left: 42%;
+    grid-column: 3;
+    grid-row: 4; 
+}
+
+.SubtituloFreshMeat{
+    font-size: 18px;
+    padding-left: 37%;
+    grid-column: 3 / 5;
+    grid-row: 4;
+}
+
+.SubtituloVegetables{
+    font-size: 18px;
+    padding-left: 13%;
+    grid-column: 4 / 5;
+    grid-row: 4;
+}
+
+.SubtituloFastfood{
+    font-size: 18px;
+    padding-left: 52%;
+    grid-column: 4 / 5;
+    grid-row: 4;
+}
+
+.TracoVerdeAll{
+    background-color: #7fad39;
+    height: 2px;
+    width: 20px;
+    margin-left: 26%;
+    grid-column: 3;
+    grid-row: 5;
+}
+
+.Texto1CrabPool{
+    grid-column: 2;
+    grid-row: 7;
+    padding-left: 20%;
+}
+
+.Texto2CrabPool{
+    grid-column: 3;
+    grid-row: 7;
+    padding-left: 20%;
+}
+
+.Texto3CrabPool{
+    grid-column: 4;
+    grid-row: 7;
+    padding-left: 20%;
+}
+
+.Texto4CrabPool{
+    grid-column: 5;
+    grid-row: 7;
+    padding-left: 20%;
+}
+
+.Texto1Preco30{
+    grid-column: 2;
+    grid-row: 8;
+    padding-left: 33%;
+    font-weight: 700;
+}
+
+.Texto2Preco30{
+    grid-column: 3;
+    grid-row: 8;
+    padding-left: 33%;
+    font-weight: 700;
+}
+
+.Texto3Preco30{
+    grid-column: 4;
+    grid-row: 8;
+    padding-left: 33%;
+    font-weight: 700;
+}
+
+.Texto4Preco30{
+    grid-column: 5;
+    grid-row: 8;
+    padding-left: 33%;
+    font-weight: 700;
+}
+
+.ImagemFeature5{
+    grid-column: 2;
+    grid-row: 9;
+}
+
+.ImagemFeature6{
+    grid-column: 3;
+    grid-row: 9;
+}
+
+.ImagemFeature7{
+    grid-column: 4;
+    grid-row: 9;
+}
+
+.ImagemFeature8{
+    grid-column: 5;
+    grid-row: 9;
+}
+
+.Texto5CrabPool{
+    grid-column: 2;
+    grid-row: 10;
+    padding-left: 20%;
+}
+
+.Texto6CrabPool{
+    grid-column: 3;
+    grid-row: 10;
+    padding-left: 20%;
+}
+
+.Texto7CrabPool{
+    grid-column: 4;
+    grid-row: 10;
+    padding-left: 20%;
+}
+
+.Texto8CrabPool{
+    grid-column: 5;
+    grid-row: 10;
+    padding-left: 20%;
+}
+
+.Texto5Preco30{
+    grid-column: 2;
+    grid-row: 11;
+    padding-left: 33%;
+    font-weight: 700;
+}
+
+.Texto6Preco30{
+    grid-column: 3;
+    grid-row: 11;
+    padding-left: 33%;
+    font-weight: 700;
+}
+
+.Texto7Preco30{
+    grid-column: 4;
+    grid-row: 11;
+    padding-left: 33%;
+    font-weight: 700;
+}
+
+.Texto8Preco30{
+    grid-column: 5;
+    grid-row: 11;
+    padding-left: 33%;
+    font-weight: 700;
+}
+
+.ImagemBanner1{
+    grid-column: 2 / 3;
+    grid-row: 12;
+}
+
+.ImagemBanner2{
+    grid-column: 4 / 5;
+    grid-row: 12;
+}
+
+.TituloLatestTopRatedReview{
+    display: grid;
+    grid-template-columns: 120px 150px 160px 40px 70px 150px 150px 40px 80px 150px 150px 40px;
+    grid-template-rows: 90px 80px 20px 35px 75px 20px 35px 75px 20px 35px;
+}
+
+.LatestProducts{
+    font-weight: 700;
+    font-size: 24px;
+    grid-column: 2 / 4;
+    grid-row: 2;
+}
+
+.ImagemLp1{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.Texto1CrabPoolLp{
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.Texto1Preco30Lp{
+    grid-column: 3;
+    grid-row: 5;
+    font-weight: 700;
+}
+
+.ImagemLp2{
+    grid-column: 2;
+    grid-row: 6;
+}
+
+.Texto2CrabPoolLp{
+    grid-column: 3;
+    grid-row: 7;
+}
+
+.Texto2Preco30Lp{
+    grid-column: 3;
+    grid-row: 8;
+    font-weight: 700;
+}
+
+.ImagemLp3{
+    grid-column: 2;
+    grid-row: 9;
+}
+
+.Texto3CrabPoolLp{
+    grid-column: 3;
+    grid-row: 10;
+}
+
+.Texto3Preco30Lp{
+    grid-column: 3;
+    grid-row: 11;
+    font-weight: 700;
+}
+
+.SetaEsquerdaLatestProducts{
+    height: 19px;
+    width: 18px;
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.LinhaSetaEsquerdaLatestProducts{
+    height: 30px;
+    width: 30px;
+    background: #F3F6FA;
+    border: 1px solid #e6e6e6;
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.SetaDireitaLatestProducts{
+    height: 19px;
+    width: 18px;
+    grid-column: 5;
+    grid-row: 2;
+}
+
+.LinhaSetaDireitaLatestProducts{
+    height: 30px;
+    width: 30px;
+    background: #F3F6FA;
+    border: 1px solid #e6e6e6;
+    grid-column: 5;
+    grid-row: 2;
+}
+
+.TopRatedProducts{
+    font-weight: 700;
+    font-size: 24px;
+    grid-column: 6 / 8;
+    grid-row: 2;
+}
+
+.ImagemLp4{
+    grid-column: 6;
+    grid-row: 3;
+}
+
+.Texto4CrabPoolLp{
+    grid-column: 7;
+    grid-row: 4;
+}
+
+.Texto4Preco30Lp{
+    grid-column: 7;
+    grid-row: 5;
+    font-weight: 700;
+}
+
+.ImagemLp5{
+    grid-column: 6;
+    grid-row: 6;
+}
+
+.Texto5CrabPoolLp{
+    grid-column: 7;
+    grid-row: 7;
+}
+
+.Texto5Preco30Lp{
+    grid-column: 7;
+    grid-row: 8;
+    font-weight: 700;
+}
+
+.ImagemLp6{
+    grid-column: 6;
+    grid-row: 9;
+}
+
+.Texto6CrabPoolLp{
+    grid-column: 7;
+    grid-row: 10;
+}
+
+.Texto6Preco30Lp{
+    grid-column: 7;
+    grid-row: 11;
+    font-weight: 700;
+}
+
+.LinhaSetaEsquerdaTopRatedProducts{
+    height: 30px;
+    width: 30px;
+    background: #F3F6FA;
+    border: 1px solid #e6e6e6;
+    grid-column: 8;
+    grid-row: 2;
+}
+
+.SetaEsquerdaTopRatedProducts{
+    height: 19px;
+    width: 18px;
+    grid-column: 8;
+    grid-row: 2;
+}
+
+.SetaDireitaTopRatedProducts{
+    height: 19px;
+    width: 18px;
+    grid-column: 9;
+    grid-row: 2;
+}
+
+.LinhaSetaDireitaTopRatedProducts{
+    height: 30px;
+    width: 30px;
+    background: #F3F6FA;
+    border: 1px solid #e6e6e6;
+    grid-column: 9;
+    grid-row: 2;
+}
+
+.ReviewProducts{
+    font-weight: 700;
+    font-size: 24px;
+    grid-column: 10 / 12;
+    grid-row: 2;
+}
+
+.ImagemLp7{
+    grid-column: 10;
+    grid-row: 3;
+}
+
+.Texto7CrabPoolLp{
+    grid-column: 11;
+    grid-row: 4;
+}
+
+.Texto7Preco30Lp{
+    grid-column: 11;
+    grid-row: 5;
+    font-weight: 700;
+}
+
+.ImagemLp8{
+    grid-column: 10;
+    grid-row: 6;
+}
+
+.Texto8CrabPoolLp{
+    grid-column: 11;
+    grid-row: 7;
+}
+
+.Texto8Preco30Lp{
+    grid-column: 11;
+    grid-row: 8;
+    font-weight: 700;
+}
+
+.ImagemLp9{
+    grid-column: 10;
+    grid-row: 9;
+}
+
+.Texto9CrabPoolLp{
+    grid-column: 11;
+    grid-row: 10;
+}
+
+.Texto9Preco30Lp{
+    grid-column: 11;
+    grid-row: 11;
+    font-weight: 700;
+}
+
+.LinhaSetaEsquerdaReviewProducts{
+    height: 30px;
+    width: 30px;
+    background: #F3F6FA;
+    border: 1px solid #e6e6e6;
+    grid-column: 12;
+    grid-row: 2;
+}
+
+.SetaEsquerdaReviewProducts{
+    height: 19px;
+    width: 18px;
+    grid-column: 12;
+    grid-row: 2;
+}
+
+.LinhaSetaDireitaReviewProducts{
+    height: 30px;
+    width: 30px;
+    background: #F3F6FA;
+    border: 1px solid #e6e6e6;
+    grid-column: 13;
+    grid-row: 2;
+}
+
+.SetaDireitaReviewProducts{
+    height: 19px;
+    width: 18px;
+    grid-column: 13;
+    grid-row: 2;
+}
+
+.FromTheBlogTitulo{
+    display: grid;
+    grid-template-columns: 150px 400px 400px;
+    grid-template-rows: 120px 50px 60px 300px 40px 30px 120px;
+}
+
+.FromTheBlogTexto{
+    font-weight: 700;
+    font-size: 36px;
+    padding-left: 5.8%;
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.TracoVerde2{
+    background-color: #7fad39;
+    height: 5px;
+    width: 80px;
+    margin-left: 28%;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.Blog1{
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.Blog2{
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.Blog3{
+    grid-column: 4;
+    grid-row: 4;
+}
+
+.Calendario1{
+    height: 14.86px;
+    width: 16px;
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.TextoMay1{
+    grid-column: 2;
+    grid-row: 5; 
+    padding-left: 5%;
+    font-size: 16px;
+    color: #b2b2b2;
+}
+
+.Comentario1{
+    height: 16px;
+    width: 15px;
+    margin-left: 33%;
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.Texto1Numero5{
+    color: #b2b2b2;
+    margin-left: 38%;
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.Calendario2{
+    height: 14.86px;
+    width: 16px;
+    grid-column: 3;
+    grid-row: 5;
+}
+
+.TextoMay2{
+    grid-column: 3;
+    grid-row: 5; 
+    padding-left: 5%;
+    font-size: 16px;
+    color: #b2b2b2;
+}
+
+.Comentario2{
+    height: 16px;
+    width: 15px;
+    margin-left: 33%;
+    grid-column: 3;
+    grid-row: 5;
+}
+
+.Texto2Numero5{
+    color: #b2b2b2;
+    margin-left: 38%;
+    grid-column: 3;
+    grid-row: 5;
+}
+
+.Calendario3{
+    height: 14.86px;
+    width: 16px;
+    grid-column: 4;
+    grid-row: 5;
+}
+
+.TextoMay3{
+    grid-column: 4;
+    grid-row: 5; 
+    padding-left: 5%;
+    font-size: 16px;
+    color: #b2b2b2;
+}
+
+.Comentario3{
+    height: 16px;
+    width: 15px;
+    margin-left: 26%;
+    grid-column: 4;
+    grid-row: 5;
+}
+
+.Texto3Numero5{
+    color: #b2b2b2;
+    margin-left: 30%;
+    grid-column: 4;
+    grid-row: 5;
+}
+
+.TextoCooking{
+    font-size: 20px;
+    font-weight: 700;
+    grid-column: 2;
+    grid-row: 6;
+}
+
+.Texto6Ways{
+    font-size: 20px;
+    font-weight: 700;
+    grid-column: 3;
+    grid-row: 6;
+}
+
+.TextoVisit{
+    font-size: 20px;
+    font-weight: 700;
+    grid-column: 4;
+    grid-row: 6;
+}
+
+.TextoSedQuia1{
+    color: #6f6f6f;
+    font-size: 16px;
+    line-height: 26px;
+    grid-column: 2;
+    grid-row: 7;
+}
+
+.TextoSedQuia2{
+    color: #6f6f6f;
+    font-size: 16px;
+    line-height: 26px;
+    grid-column: 3;
+    grid-row: 7;
+}
+
+.TextoSedQuia3{
+    color: #6f6f6f;
+    font-size: 16px;
+    line-height: 26px;
+    grid-column: 4;
+    grid-row: 7;
+}
+
+
+
+
+.Rodape{
+    background-color: #F3F6FA;
+}
+
+.FooterRodape{
+    display: grid;
+    grid-template-columns: 200px 360px 160px 220px 240px 135px;
+    grid-template-rows: 70px 70px 30px 30px 30px 30px 30px 70px 27px 50px;
+}
+
+.TamanhoOgani2{
+    height: 50px;
+    width: 119px;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.TextoAddress{
+    font-size: 16px;
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.TextoPhone{
+    font-size: 16px;
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.TextoEmail{
+    font-size: 16px;
+    grid-column: 2;
+    grid-row: 6;
+}
+
+.TextoUseful{
+    font-size: 14px;
+    font-weight: 700;
+    grid-column: 3;
+    grid-row: 2;
+    padding-top: 16%;
+}
+
+.TextoAboutUs{
+    font-size: 14px;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.TextoWhoWe{
+    font-size: 14px;
+    grid-column: 4;
+    grid-row: 3;
+}
+
+.TextoAboutOur{
+    font-size: 14px;
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.TextoOurServices{
+    font-size: 14px;
+    grid-column: 4;
+    grid-row: 4;
+}
+
+.TextoSecureShopping{
+    font-size: 14px;
+    grid-column: 3;
+    grid-row: 5;
+}
+
+.TextoProjects{
+    font-size: 14px;
+    grid-column: 4;
+    grid-row: 5;
+}
+
+.TextoDeliveryInfomation{
+    font-size: 14px;
+    grid-column: 3;
+    grid-row: 6;
+}
+
+.TextoContact{
+    font-size: 14px;
+    grid-column: 4;
+    grid-row: 6;
+}
+
+.TextoPrivacyPolicy{
+    font-size: 14px;
+    grid-column: 3;
+    grid-row: 7;
+}
+
+.TextoInnovation{
+    font-size: 14px;
+    grid-column: 4;
+    grid-row: 7;
+}
+
+.TextoOurSitemap{
+    font-size: 14px;
+    grid-column: 3;
+    grid-row: 8;
+}
+
+.TextoTestimonials{
+    font-size: 14px;
+    grid-column: 4;
+    grid-row: 8;
+}
+
+.TextoJoinOur{
+    font-weight: 700;
+    font-size: 16px;
+    grid-column: 5;
+    grid-row: 2;
+    padding-top: 13%;
+}
+
+.TextoGetEmail{
+    font-size: 14px;
+    grid-column: 5 / 7;
+    grid-row: 3;
+}
+
+.CaixadeTextoBranco{
+    grid-column: 5;
+    grid-row: 5 / 6;
+    background-color: #ffffff;
+}
+
+.TextoEnterYourEmail{
+    grid-column: 5 / 6;
+    grid-row: 5 / 6;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+.FundoVerdeSubscribe{
+    grid-column: 6 / 7;
+    grid-row: 5 / 6;
+    background-color: #7fad39;
+}
+
+.TextoSubscribe{
+    grid-column: 6 / 7;
+    grid-row: 5 / 6;
+    padding-left: 18%;
+    padding-top: 5%;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.FundoFacebookRodape{
+    height: 41px;
+    width: 41px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    grid-column: 5;
+    grid-row: 7;
+}
+
+.TamanhoFacebookRodape{
+    height: 14px;
+    width: 8px;
+    grid-column: 5;
+    grid-row: 7;
+    margin-left: 6%;
+    margin-top: 6%;
+}
+
+.FundoInstagramRodape{
+    height: 41px;
+    width: 41px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    grid-column: 5;
+    grid-row: 7;
+    margin-left: 22%;
+}
+
+.TamanhoInstagramRodape{
+    height: 13.76px;
+    width: 16px;
+    grid-column: 5;
+    grid-row: 7;
+    margin-left: 27%;
+    margin-top: 6%;
+}
+
+.FundoTwitterRodape{
+    height: 41px;
+    width: 41px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    grid-column: 5;
+    grid-row: 7;
+    margin-left: 44%;
+}
+
+.TamanhoTwitterRodape {
+    height: 14px;
+    width: 13px;
+    grid-column: 5;
+    grid-row: 7;
+    margin-left: 50%;
+    margin-top: 6%;
+}
+
+.FundoPinterestRodape{
+    height: 41px;
+    width: 41px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    grid-column: 5;
+    grid-row: 7;
+    margin-left: 66%;
+}
+
+.TamanhoPinterestRodape{
+    height: 14px;
+    width: 13px;
+    grid-column: 5;
+    grid-row: 7;
+    margin-left: 71.5%;
+    margin-top: 6%;
+}
+
+.LinhaGrandeRodape{
+    height: 1px;
+    width: 1125px;
+    grid-column: 2 / 7;
+    grid-row: 9;
+    background-color: #ebebeb;
+}
+
+.TextoCopyright{
+    grid-column: 2 / 5;
+    grid-row: 10;
+    color: #6f6f6f;
+    font-family: "Cairo", sans-serif;
+}
+
+.TamanhoCoracaoRodape{
+    height: 18px;
+    width: 17.6px;
+    grid-column: 3;
+    grid-row: 10;
+    margin-left: 62%;
+}
+
+.Textoby{
+    grid-column: 3;
+    grid-row: 10;
+    margin-left: 76%;
+    color: #6f6f6f;
+    font-family: "Cairo", sans-serif;
+}
+
+.TextoColorlib{
+    grid-column: 3;
+    grid-row: 10;
+    margin-left: 90%;
+    color: #007bff;
+}
+
+.ImagemPayment{
+    grid-column: 5;
+    grid-row: 10;
+    padding-left: 40%;
+}
+
+.ImagemTomateShop{
+    grid-row: 7;
+    background-image: url(breadcrumb.jpg.webp);
+}
